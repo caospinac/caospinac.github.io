@@ -23,6 +23,10 @@
     "styled-components": "^5.3.3"
   },
   "devDependencies": {
+    "eslint": "^8.7.0",
+    "eslint-plugin-react": "^7.28.0",
+    "gatsby-alias-imports": "^1.0.6",
+    "gatsby-plugin-root-import": "^2.0.8",
     "gh-pages": "^3.2.3"
   }
 }
