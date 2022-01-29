@@ -19,6 +19,7 @@
     "react"
   ],
   "rules": {
+    "eol-last":"warn",
     "react/react-in-jsx-scope": "off",
     "indent": [
       "error",

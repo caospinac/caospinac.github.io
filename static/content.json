@@ -1,0 +1,23 @@
+{
+  "sections": [
+    {
+      "me": {
+        "name": "Carlos Ospina",
+        "avatar_url": "https://avatars.githubusercontent.com/u/22181165",
+        "about": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer leo dui, blandit a condimentum id, cursus eu ipsum. Sed odio augue, pulvinar in condimentum lobortis, eleifend eleifend est. Cras fringilla vehicula elit, eu lobortis eros fermentum non. Nunc euismod mi sit amet suscipit elementum. Integer vel risus odio.",
+        "media": [
+          {
+            "name": "GitHub",
+            "icon": "github",
+            "href": "http://github.com/caospinac"
+          },
+          {
+            "name": "LinkedIn",
+            "icon": "linkedin",
+            "href": "http://linkedin.com/in/caospina"
+          }
+        ]
+      }
+    }
+  ]
+}
