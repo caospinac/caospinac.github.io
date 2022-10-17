@@ -1,1 +1,0 @@
-{"version":3,"file":"component---src-pages-index-js-0a18072aa02cf60a5a86.js","mappings":"wIAUA,UARkB,WAChB,OACE","sources":["webpack://carlosaospinac/./src/pages/index.js"],"sourcesContent":["import * as React from \"react\"\n\nconst IndexPage = () => {\n  return (\n    <main>\n      Hello world! c:\n    </main>\n  )\n}\n\nexport default IndexPage\n"],"names":[],"sourceRoot":""}

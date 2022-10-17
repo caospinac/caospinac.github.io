@@ -1,0 +1,21 @@
+{
+  "sections": [
+    {
+      "me": {
+        "name": "Carlos Ospina",
+        "media": [
+          {
+            "name": "GitHub",
+            "icon": "github",
+            "href": "http://github.com/caospinac"
+          },
+          {
+            "name": "LinkedIn",
+            "icon": "linkedin",
+            "href": "http://linkedin.com/in/caospina"
+          }
+        ]
+      }
+    }
+  ]
+}
