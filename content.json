@@ -18,6 +18,97 @@
           }
         ]
       }
+    },
+    {
+      "skills": {
+        "title": "Skills",    
+        "items": [
+          {
+            "name":"Go",
+            "weight": 200
+          },
+          {
+            "name":"Python",
+            "weight": 94
+          },
+          {
+            "name":"CSS/SASS",
+            "weight": 70
+          },
+          {
+            "name":"HTML",
+            "weight": 70
+          },
+          {
+            "name":"Node.js",
+            "weight": 200
+          },
+          {
+            "name":"TypeScript",
+            "weight": 160
+          },
+          {
+            "name":"React",
+            "weight": 80
+          },
+          {
+            "name":"Vue.js",
+            "weight": 50
+          },
+          {
+            "name":"Linux",
+            "weight": 55
+          },
+          {
+            "name":"Redis",
+            "weight": 35
+          },
+          {
+            "name":"SQL",
+            "weight": 40
+          },
+          {
+            "name":"MongoDB",
+            "weight": 47
+          },
+          {
+            "name":"JSON Web Token (JWT)",
+            "weight": 37
+          },
+          {
+            "name":"Docker",
+            "weight": 50
+          },
+          {
+            "name":"Regular Expressions",
+            "weight": 60
+          },
+          {
+            "name":"Googling",
+            "weight": 60
+          },
+          {
+            "name":"Git",
+            "weight": 60
+          },
+          {
+            "name":"Serverless Framework",
+            "weight": 20
+          },
+          {
+            "name":"AWS Lambda",
+            "weight": 30
+          },
+          {
+            "name":"AWS DynamoDB",
+            "weight": 20
+          },
+          {
+            "name":"AWS S3",
+            "weight": 20
+          }
+        ]
+      }
     }
   ]
 }
