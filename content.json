@@ -21,7 +21,7 @@
     },
     {
       "skills": {
-        "title": "Skills",    
+        "caption": "The bigger the tool name, the more skilled I am at it.",    
         "items": [
           {
             "name":"Go",
