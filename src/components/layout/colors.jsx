@@ -2,14 +2,20 @@ import { createGlobalStyle } from 'styled-components'
 
 export const GlobalColors = createGlobalStyle`
   body {
-    --light: hsl(196, 30%, 95%);
-    --light-2: hsl(196, 30%, 90%);
-    --light-3: hsl(196, 30%, 85%);
-    --light-4: hsl(196, 30%, 80%);
+    --black: hsl(0, 0%, 0%);
+    --white: hsl(0, 0%, 100%);
 
-    --dark: hsl(196, 30%, 15%);
-    --dark-2: hsl(196, 30%, 15%);
-    --dark-3: hsl(196, 30%, 20%);
-    --dark-4: hsl(196, 30%, 25%);
+    --color-1: white;
+
+    --light-0: hsl(0, 0%, 95%);
+    --light: hsl(0, 0%, 90%);
+    --light-2: hsl(0, 0%, 85%);
+
+    --dark-0: hsl(220, 50%, 10%);
+    --dark: hsl(220, 50%, 15%);
+    --dark-2: hsl(220, 50%, 20%);
+
+    --primary: hsl(37, 97%, 52%);
+    --secondary: hsl(5, 81%, 37%)
   }
 `

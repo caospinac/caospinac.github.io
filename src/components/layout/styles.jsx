@@ -6,8 +6,8 @@ export const GlobalStyles = createGlobalStyle`
     display: initial;
 
     font-family: 'Montserrat';
-    background-color: var(--light);
-    color: var(--dark);
+    background-color: var(--dark);
+    color: var(--color-1);
 
     h1, h2, h3, h4, h5, h6 {
       margin-top: .5em;
@@ -20,27 +20,22 @@ export const GlobalStyles = createGlobalStyle`
 
     h2 {
       font-size: 24pt;
-      color: var(--dark-4)
     }
 
     h3 {
       font-size: 20pt;
-      color: var(--dark-3)
     }
 
     h4 {
       font-size: 18pt;
-      color: var(--dark-2)
     }
 
     h5 {
       font-size: 14pt;
-      color: var(--dark)
     }
 
     h6 {
       font-size: 12pt;
-      color: var(--dark-2)
     }
 
     a {
@@ -58,7 +53,7 @@ export const GlobalStyles = createGlobalStyle`
           display: block;
           width: 0;
           height: 1px;
-          background-color: var(--light);
+          background-color: var(--primary);
           transition: width .2s;
         }
   

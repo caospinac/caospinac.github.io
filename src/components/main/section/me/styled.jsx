@@ -15,16 +15,11 @@ export const Media = styled.div`
     width: 1.4em;
     height: 1.4em;
     border-radius: 50%;
-    background-color: var(--light-2);
-
+    background-color: var(--dark-0);
     transition: background-color .2s;
 
     &:hover {
-      background-color: var(--light-3);
-    }
-
-    &:active {
-      background-color: var(--light-4);
+      background-color: var(--primary);
     }
   }
 `

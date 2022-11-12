@@ -1,24 +1,19 @@
 import styled from 'styled-components'
 
-export const BannerPlace = styled.div`
-  position: relative;
-  display: block;
-  width: 100%;
-  height: 50px;
-`
 
 export const BannerContainer = styled.div`
-  position: absolute;
+  position: sticky;
+  top: 0;
   width: 100%;
-  height: inherit;
+  height: 50px;
   display: flex;
   justify-content: center;
   align-items: center;
 
   margin: inherit;
   padding: inherit;
-  background-color: var(--dark-3);
-  color: var(--light);
+  background-color: var(--primary);
+  color: var(--dark-0);
 `
 
 export const  Container = styled.div`
