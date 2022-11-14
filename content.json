@@ -45,11 +45,11 @@
           },
           {
             "name":"TypeScript",
-            "weight": 160
+            "weight": 130
           },
           {
             "name":"React",
-            "weight": 80
+            "weight": 130
           },
           {
             "name":"Vue.js",
@@ -108,6 +108,32 @@
             "weight": 20
           }
         ]
+      }
+    },
+    {
+      "experience": {
+        "caption": "Companies I'm proud to have worked for",
+        "companies": [
+          {
+            "name": "MercadoLibre",
+            "website": "https://www.mercadolibre.com",
+            "present": true
+          },
+          {
+            "name": "Rappi",
+            "website": "https://www.rappi.com",
+            "present": false
+          },
+          {
+            "name": "Playvox",
+            "website": "https://www.playvox.com/",
+            "present": false
+          }
+        ],
+        "details": {
+          "text": "See details of my experience on LinkedIn",
+          "url": "http://linkedin.com/in/caospina"
+        }
       }
     }
   ]
