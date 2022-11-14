@@ -6,6 +6,7 @@ module.exports = {
   plugins: [
     'gatsby-plugin-styled-components',
     'gatsby-plugin-root-import',
+    'gatsby-plugin-fontawesome-css',
     {
       resolve: 'gatsby-alias-imports',
       options: {

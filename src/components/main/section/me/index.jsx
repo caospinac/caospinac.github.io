@@ -1,4 +1,3 @@
-import PropTypes from 'prop-types'
 import { Avatar, Media, MeSection } from './styled'
 
 const Me = ({ data }) => {
@@ -21,12 +20,6 @@ const Me = ({ data }) => {
     </MeSection>
   )
 }
-
-Me.propTypes = {
-  id: PropTypes.string,
-  data: PropTypes.object,
-}
-
 
 Me.ID = 'me'
 

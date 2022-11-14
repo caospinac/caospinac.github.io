@@ -1,4 +1,3 @@
-import PropTypes from 'prop-types'
 import { Caption, CloudWrapper, SkillsSection } from './styled'
 import ReactWordcloud from 'react-wordcloud'
 import { useMemo } from 'react'
@@ -33,12 +32,6 @@ const Skills = ({ data }) => {
     </SkillsSection>
   )
 }
-
-Skills.propTypes = {
-  id: PropTypes.string,
-  data: PropTypes.object,
-}
-
 
 Skills.ID = 'skills'
 

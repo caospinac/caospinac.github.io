@@ -1,5 +1,4 @@
 import { createContext } from 'react'
-import PropTypes from 'prop-types'
 
 import contentJSON from '../../static/content.json'
 
@@ -11,8 +10,4 @@ export const ContentProvider = ({ children }) => {
       {children}
     </ContentContext.Provider>
   )
-}
-
-ContentProvider.propTypes = {
-  children: PropTypes.node,
 }

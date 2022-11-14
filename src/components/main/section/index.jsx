@@ -1,7 +1,8 @@
-import PropTypes from 'prop-types'
 import { useMemo } from 'react'
 import Me from './me'
 import Skills from './skills'
+import Experience from './experience'
+
 import { SectionWrapper } from './styled'
 
 const factory = id => {
@@ -11,6 +12,9 @@ const factory = id => {
 
   case Skills.ID:
     return Skills
+
+  case Experience.ID:
+    return Experience
 
   default:
     return null
@@ -28,11 +32,6 @@ const Section = ({ id, data }) => {
       <SectionComponent data={data} />
     </SectionWrapper>
   )
-}
-
-Section.propTypes = {
-  id: PropTypes.string,
-  data: PropTypes.object,
 }
 
 export default Section
