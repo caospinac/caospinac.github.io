@@ -32,7 +32,6 @@ export const CompanyBox = styled.div`
   background-color: var(--light-2);
   filter: saturate(80%);
   border-radius: var(--border);
-  overflow: hidden;
 
   & > a {
     position: absolute;
@@ -51,6 +50,24 @@ export const CompanyBox = styled.div`
 
     &:hover {
       opacity: .6;
+    }
+  }
+
+  &.active {
+    border: 3px solid var(--primary);
+    margin: -1.5px;
+
+    &::before {
+      content: 'Present';
+      position: absolute;
+      top: -.615em;
+      height: 1.3em;
+      left: 1em;
+      padding: 0 .7em;
+      font-size: 12pt;
+      background-color: var(--primary);
+      color: var(--dark-0);
+      border-radius: 0.5em;
     }
   }
 `

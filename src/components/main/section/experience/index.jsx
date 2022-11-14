@@ -2,7 +2,7 @@ import { useCallback } from 'react'
 import { FaIcon, SVG } from '../../../common'
 import { CompaniesGrid, CompanyBox, ExperienceSection } from './styled'
 
-const Company = ({ name, website }) => {
+const Company = ({ name, website, present }) => {
 
   const iconURL = `/images/${name.toLowerCase()}.svg`
 
@@ -11,7 +11,7 @@ const Company = ({ name, website }) => {
   }, [website])
 
   return (
-    <CompanyBox onClick={handleClick}>
+    <CompanyBox onClick={handleClick} className={present ? 'active' : undefined}>
       <SVG data={iconURL} />
       {website && (
         <a href={website} target="_blank" rel="noopener noreferrer">
@@ -29,7 +29,7 @@ const Experience = ({ data }) => {
       <h4>{data.caption}</h4>
       <CompaniesGrid>
         {data.companies.map((company, i) => (
-          <Company key={i} name={company.name} website={company.website} />
+          <Company key={i} {...company} />
         ))}
       </CompaniesGrid>
       {data.details && (

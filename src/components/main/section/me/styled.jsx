@@ -26,11 +26,16 @@ export const Media = styled.div`
 
 export const Avatar = styled.div`
   margin: 2rem 0;
+  border: 8px solid var(--light);
+  box-shadow: 0 0 5px var(--dark-0);
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
 
   img {
-    border-radius: 50%;
-    width: 200px;
-    height: 200px;
-    object-fit: contain;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
   }
 `

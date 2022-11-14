@@ -5,7 +5,7 @@ const Me = ({ data }) => {
     <MeSection>
       <h2>{data.name}</h2>
       <Avatar>
-        <img src={data.avatar_url} alt={data.name} />
+        <img src='/images/photo.webp' alt={data.name} />
       </Avatar>
       <span>{data.about}</span>
       <h2>
