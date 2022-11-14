@@ -16,6 +16,8 @@ export const GlobalColors = createGlobalStyle`
     --dark-2: hsl(220, 50%, 20%);
 
     --primary: hsl(37, 97%, 52%);
-    --secondary: hsl(5, 81%, 37%)
+    --secondary: hsl(5, 81%, 37%);
+
+    --red: hsl(5, 81%, 38%)
   }
 `

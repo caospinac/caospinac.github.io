@@ -32,6 +32,11 @@ const Experience = ({ data }) => {
           <Company key={i} name={company.name} website={company.website} />
         ))}
       </CompaniesGrid>
+      {data.details && (
+        <a href={data.details.url} className='link' target="_blank" rel="noopener noreferrer">
+          <span>{data.details.text}</span>
+        </a>
+      )}
     </ExperienceSection>
   )
 }
