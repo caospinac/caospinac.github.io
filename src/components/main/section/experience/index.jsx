@@ -1,17 +1,12 @@
-import { useCallback } from 'react'
 import { FaIcon, SVG } from '../../../common'
 import { CompaniesGrid, CompanyBox, ExperienceSection } from './styled'
 
 const Company = ({ name, website, present }) => {
 
-  const iconURL = `/images/${name.toLowerCase()}.svg`
-
-  const handleClick = useCallback(() => {
-    window.open(website, '_blank')
-  }, [website])
+  const iconURL = `/assets/${name.toLowerCase()}.svg`
 
   return (
-    <CompanyBox onClick={handleClick} className={present ? 'active' : undefined}>
+    <CompanyBox className={present ? 'active' : undefined}>
       <SVG data={iconURL} />
       {website && (
         <a href={website} target="_blank" rel="noopener noreferrer">

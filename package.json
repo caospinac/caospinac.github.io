@@ -14,13 +14,17 @@
     "deploy": "gatsby clean && gatsby build --prefix-paths && gh-pages -d public"
   },
   "dependencies": {
-    "@fortawesome/fontawesome-svg-core": "^6.2.0",
+    "@fortawesome/fontawesome-svg-core": "^6.2.1",
     "babel-plugin-styled-components": "^2.0.7",
     "font-awesome": "^4.7.0",
-    "gatsby": "^4.24.4",
+    "gatsby": "^5.0.1",
     "gatsby-plugin-fontawesome-css": "^1.2.0",
     "gatsby-plugin-google-fonts": "^1.0.1",
-    "gatsby-plugin-styled-components": "^5.24.0",
+    "gatsby-plugin-google-gtag": "^5.0.0",
+    "gatsby-plugin-image": "^3.0.0",
+    "gatsby-plugin-sharp": "^5.0.0",
+    "gatsby-plugin-styled-components": "^6.0.0",
+    "gatsby-source-filesystem": "^5.0.0",
     "react": "^18.1.0",
     "react-dom": "^18.1.0",
     "react-wordcloud": "^1.2.7",
@@ -28,10 +32,10 @@
   },
   "devDependencies": {
     "@types/styled-components": "^5.1.26",
-    "eslint": "^8.7.0",
-    "eslint-plugin-react": "^7.28.0",
+    "eslint": "^8.27.0",
+    "eslint-plugin-react": "^7.31.10",
     "gatsby-alias-imports": "^1.0.6",
     "gatsby-plugin-root-import": "^2.0.8",
-    "gh-pages": "^3.2.3"
+    "gh-pages": "^4.0.0"
   }
 }

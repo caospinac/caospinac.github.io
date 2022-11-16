@@ -1,11 +1,23 @@
+import { StaticImage } from 'gatsby-plugin-image'
+
 import { Avatar, Media, MeSection } from './styled'
 
 const Me = ({ data }) => {
+
+  console.log(__dirname)
+
   return (
     <MeSection>
       <h2>{data.name}</h2>
       <Avatar>
-        <img src='/images/photo.webp' alt={data.name} />
+        <StaticImage
+          src='./assets/photo.webp'
+          alt={data.name}
+          placeholder='blurred'
+          layout='fixed'
+          width={200}
+          height={200}
+        />
       </Avatar>
       <span>{data.about}</span>
       <h2>
