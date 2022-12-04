@@ -88,7 +88,7 @@
           },
           {
             "name":"Git",
-            "weight": 60
+            "weight": 65
           },
           {
             "name":"Serverless Framework",
@@ -103,8 +103,20 @@
             "weight": 20
           },
           {
+            "name":"MongoDB",
+            "weight": 35
+          },
+          {
             "name":"AWS S3",
             "weight": 20
+          },
+          {
+            "name":"C/C++",
+            "weight": 30
+          },
+          {
+            "name":"CI/CD",
+            "weight": 35
           }
         ]
       }
