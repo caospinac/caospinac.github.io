@@ -8,12 +8,17 @@
           {
             "name": "GitHub",
             "icon": "github",
-            "href": "http://github.com/caospinac"
+            "href": "//github.com/caospinac"
           },
           {
             "name": "LinkedIn",
             "icon": "linkedin",
-            "href": "http://linkedin.com/in/caospina"
+            "href": "//linkedin.com/in/caospina"
+          },
+          {
+            "name": "Instagram",
+            "icon": "instagram",
+            "href": "//instagram.com/caospinac"
           }
         ]
       }
