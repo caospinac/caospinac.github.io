@@ -1,13 +1,12 @@
 import styled from 'styled-components'
 
 export const SectionWrapper = styled.div`
-  padding: .7rem 0;
-
-  @media (min-width: 768px) {
-    width: 80vw;
-  }
+  padding-left: 2rem;
+  padding-right: 2rem;
 
   @media (min-width: 992px) {
+    padding-left: 2vw;
+    padding-right: 2vw;
     width: 70vw;
     max-width: 1200px;
   }

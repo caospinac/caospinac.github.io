@@ -1,6 +1,6 @@
 import { StaticImage } from 'gatsby-plugin-image'
 
-import { Avatar, Media, MeSection } from './styled'
+import { About, Avatar, Media, MeSection, Name, PresentationWrapper } from './styled'
 
 const Me = ({ data }) => {
 
@@ -8,18 +8,23 @@ const Me = ({ data }) => {
 
   return (
     <MeSection>
-      <h2>{data.name}</h2>
-      <Avatar>
-        <StaticImage
-          src='./assets/photo.webp'
-          alt={data.name}
-          placeholder='blurred'
-          layout='fixed'
-          width={200}
-          height={200}
-        />
-      </Avatar>
-      <span>{data.about}</span>
+      <Name>{data.name}</Name>
+      <PresentationWrapper>
+        <About>
+          <h3>{data.about.title}</h3>
+          {data.about.body.map((paragraph, i)=> <p key={i}>{paragraph}</p>)}
+        </About>
+        <Avatar>
+          <StaticImage
+            src='./assets/photo.webp'
+            alt={data.name}
+            placeholder='blurred'
+            layout='fixed'
+            width={200}
+            height={200}
+          />
+        </Avatar>
+      </PresentationWrapper>
       <h2>
         <Media>
           {data.media.map((site, i) => (
